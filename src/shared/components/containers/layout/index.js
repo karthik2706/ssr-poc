@@ -13,7 +13,7 @@ class Layout extends React.Component {
   
   getComponentType(aemComponentCode) {
     if (this.isColumnControl(aemComponentCode)) {
-      return 'column_control'
+      return 'columncontrol'
     } else {
       const lastIndex = ~aemComponentCode.lastIndexOf('_');
       if (lastIndex) {

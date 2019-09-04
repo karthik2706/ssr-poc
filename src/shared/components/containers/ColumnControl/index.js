@@ -9,7 +9,7 @@ class ColumnControl extends React.Component {
   getColumnClassName(ratio) {
     ratio = ratio | 0;
     if (typeof ratio === "number") {
-      return `col-md-${(12*ratio)/100}`;
+      return `col-md-${ratio}`;
     } else {
       '';
     }

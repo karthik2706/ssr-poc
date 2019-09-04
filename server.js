@@ -7720,8 +7720,8 @@ Headers.prototype.raw = function() {
 var Constants = {
     //AEM_SERVER_HOST : "http://34.217.231.138:4503",
     //http://18.236.10.90:4503/content/kohls/en_us/homepage.model.json
-    AEM_SERVER_HOST: "http://demo0374758.mockable.io",
-    BODY_PATH_URI: "/homePage"
+    AEM_SERVER_HOST: 'http://18.236.10.90:4503', //"http://demo0374758.mockable.io",
+    BODY_PATH_URI: '/content/kohls/en_us/home.model.json' //"/homePage"
     // AEM_SERVER_HOST : "http://18.236.10.90:4503",
     // BODY_PATH_URI: "/content/kohls/en_us/homepage.model.json"
 };
@@ -13898,7 +13898,7 @@ var routes = [{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\common\\VideoBannerComponent\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\VideoBannerComponent\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14031,7 +14031,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CarouselHero_scss__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CarouselHero_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__CarouselHero_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\common\\CarouselHero\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\CarouselHero\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14222,7 +14222,7 @@ var CarouselHero = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_scss__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\code_base\\src\\shared\\components\\common\\CarouselHero-2\\index.js';
+var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\CarouselHero-2\\index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14452,7 +14452,7 @@ var CarouselHero2 = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_ResponsiveHeader__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_AdaptiveHeader__ = __webpack_require__(221);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__reducers_body__ = __webpack_require__(50);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\code_base\\src\\shared\\components\\containers\\Header\\index.js';
+var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\containers\\Header\\index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14595,7 +14595,7 @@ __webpack_require__(28).inherits(FetchError, Error);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss__ = __webpack_require__(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\common\\TextImageCarouselComponent\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\TextImageCarouselComponent\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14864,7 +14864,7 @@ module.exports = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_CarouselHero__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index_scss__ = __webpack_require__(248);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\containers\\Banner\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\containers\\Banner\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -15172,7 +15172,7 @@ var insideSection = function insideSection(_ref2) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__layout__ = __webpack_require__(257);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\containers\\ColumnControl\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\containers\\ColumnControl\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -15202,7 +15202,7 @@ var ColumnControl = function (_React$Component) {
     value: function getColumnClassName(ratio) {
       ratio = ratio | 0;
       if (typeof ratio === "number") {
-        return "col-md-" + 12 * ratio / 100;
+        return "col-md-" + ratio;
       } else {
         '';
       }
@@ -15995,7 +15995,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_source_map_support_register__ = __webpack_require__(265);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_source_map_support_register___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_source_map_support_register__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__shared_Constants__ = __webpack_require__(53);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\server\\index.js",
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\server\\index.js",
     _this = this;
 
 
@@ -64038,7 +64038,7 @@ module.exports = function serialize(obj, options) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__common_StickyPromo__ = __webpack_require__(249);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__common_StickyPromo_tester_js__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__containers_ColumnControl__ = __webpack_require__(103);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\code_base\\src\\shared\\components\\views\\Kohls\\Home\\index.js';
+var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\views\\Kohls\\Home\\index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -64081,7 +64081,7 @@ var HomePage = function (_React$Component) {
   }, {
     key: 'isColumnControl',
     value: function isColumnControl(itemCode) {
-      return !!itemCode.match('column_control');
+      return !!itemCode.match('columncontrol');
     }
   }, {
     key: 'render',
@@ -64200,7 +64200,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\common\\ResponsiveHeader\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\ResponsiveHeader\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -64835,7 +64835,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\common\\AdaptiveHeader\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\AdaptiveHeader\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -69416,7 +69416,7 @@ module.exports = QueryHandler;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__promo__ = __webpack_require__(251);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__index_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\code_base\\src\\shared\\components\\common\\StickyPromo\\index.js';
+var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -69560,7 +69560,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\code_base\\src\\shared\\components\\common\\StickyPromo\\miniPromo.js';
+var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\miniPromo.js';
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -69670,7 +69670,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\code_base\\src\\shared\\components\\common\\StickyPromo\\promo.js';
+var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\promo.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -69901,7 +69901,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__viewDetector_js__ = __webpack_require__(253);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\code_base\\src\\shared\\components\\common\\StickyPromo\\tester.js';
+var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\tester.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -69999,7 +69999,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__index_scss__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\code_base\\src\\shared\\components\\common\\StickyPromo\\viewDetector.js';
+var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\viewDetector.js';
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -71018,7 +71018,7 @@ function addEventListener(target, eventName, listener, options) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Banner__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__common_VideoBannerComponent__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__common_TextImageCarouselComponent__ = __webpack_require__(98);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\containers\\layout\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\containers\\layout\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -71052,7 +71052,7 @@ var Layout = function (_React$Component) {
     key: "getComponentType",
     value: function getComponentType(aemComponentCode) {
       if (this.isColumnControl(aemComponentCode)) {
-        return 'column_control';
+        return 'columncontrol';
       } else {
         var lastIndex = ~aemComponentCode.lastIndexOf('_');
         if (lastIndex) {
@@ -71213,7 +71213,7 @@ var Layout = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_classnames__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\components\\common\\TextComponent\\index.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\TextComponent\\index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -71366,7 +71366,7 @@ var clearServerState = function clearServerState() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__routes__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_es6_promise__ = __webpack_require__(264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_es6_promise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_es6_promise__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\code_base\\src\\shared\\App.js";
+var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\App.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 

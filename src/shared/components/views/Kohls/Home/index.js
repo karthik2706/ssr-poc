@@ -24,7 +24,7 @@ class HomePage extends React.Component {
     }
 
     isColumnControl(itemCode) {
-      return !!itemCode.match('column_control');
+      return !!itemCode.match('columncontrol');
     }
   
     render() {
