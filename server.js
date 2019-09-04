@@ -16068,8 +16068,8 @@ app.get("*", function (req, res, next) {
   }).catch(next);
 });
 
-app.listen(process.env.PORT || 8084, function () {
-  console.log("Server is listening", process.env.PORT || 8084);
+app.listen(process.env.PORT, function () {
+  console.log("Server is listening", process.env.PORT);
 });
 
 /***/ }),

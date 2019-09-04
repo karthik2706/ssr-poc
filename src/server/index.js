@@ -90,6 +90,6 @@ app.get("*", (req, res, next) => {
     .catch(next);
 });
 
-app.listen(process.env.PORT || 8084, () => {
-  console.log("Server is listening", process.env.PORT || 8084);
+app.listen(process.env.PORT, () => {
+  console.log("Server is listening", process.env.PORT);
 });
