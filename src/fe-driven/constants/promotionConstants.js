@@ -1,0 +1,5 @@
+export default {
+    SET_PROMOTIONS: 'SET_PROMOTIONS',
+    PROMO_LEFT: 'PROMO_LEFT',
+    PROMO_ENTERED: 'PROMO_ENTERED'
+};

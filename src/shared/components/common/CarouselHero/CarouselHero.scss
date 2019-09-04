@@ -1,0 +1,179 @@
+$mobile-breakpoint: 768px;
+
+.hero-component-wrapper {
+  position: relative;
+  overflow: hidden;
+  //font-family: Gotham;
+
+  @media only screen and (min-width: $mobile-breakpoint) {
+    padding: 0 1.5vw;
+    .d-md-none {
+      display: none;
+    }
+  }
+
+  .details-wrapper {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+      top: 52%;
+      left: 5px;
+    }
+
+    .section-title {
+      background-color: #fbdfeb;
+      padding: 15px;
+      width: 35vw;
+
+      .title {
+        font-size: 62px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 0.81;
+        letter-spacing: 0px;
+        color: #d72089;
+        font-weight: 300;
+        font-family: "Gotham-Book";
+        margin: 10px 0;
+        strong {
+          font-weight: bold;
+          font-family: "Gotham-Bold";
+        }
+      }
+
+      @media only screen and (min-width: 768px) and (max-width: 1439px) {
+
+        padding: 15px 10px;
+
+        .title {
+          font-size: 56px;
+        }
+      }
+
+      @media only screen and (max-width: $mobile-breakpoint) {
+        padding: 20px 10px;
+        width: 80vw;
+
+        .title {
+          font-size: 32px !important;
+          margin: 0;
+          font-weight: normal;
+        }
+      }
+    }
+
+    .section-subtitle {
+      padding: 20px 28px;
+      width: 32vw;
+      font-size: 45px;
+      font-weight: 300;
+      line-height: 1;
+      margin-top: 10px;
+      max-width: 60vw;
+      color: #000000;
+
+      p, b {
+        font-weight: 300;
+      }
+
+      @media only screen and (max-width: $mobile-breakpoint) {
+        padding: 0 10px;
+        width: auto;
+        font-size: 25px;
+
+        p, b {
+          line-height: 24px;
+          display: inline-block;
+        }
+
+        br {
+          display: none;
+        }
+      }
+    }
+
+    .subtitle-text {
+      //ont-family: Gotham;
+      font-size: 45px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.07;
+      letter-spacing: -1px;
+      color: #000000;
+
+      @media only screen and (max-width: $mobile-breakpoint) {
+        font-size: 12px;
+        width: 90px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.01;
+        letter-spacing: -0.5px;
+        margin-top: 5px;
+      }
+    }
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+      .section-links {
+        display: none;
+      }
+    }
+  }
+
+  .section-links {
+    padding-left: 28px;
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+      margin-top: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .link {
+      padding: 0 10px;
+      border-right: 1px solid #000;
+      color: #000;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      font-family: "Gotham-Book";
+
+      &:last-child {
+        border-right: none;
+      }
+
+      &:first-child {
+        padding-left: 0;
+      }
+
+      @media only screen and (max-width: $mobile-breakpoint) {
+        font-size: 12px;
+        line-height: 3.3;
+      }
+    }
+  }
+
+  .image-wraper {
+    margin-left: 15%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-position-y: -113px;
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+      margin-left: 35px;
+      min-height: 73vw;
+      background-position-x: 85%;
+      background-position-y: 0;
+    }
+  }
+}

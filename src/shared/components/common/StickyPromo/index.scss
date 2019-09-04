@@ -1,0 +1,261 @@
+// variables
+
+$blueBG: #02a5b5;
+$black: #000000;
+$white: #ffffff;
+$promo_type1_bg: #e5dced;
+$promo_type2_bg: #fbdfeb;
+$promo_type3_bg: #e5fbdf;
+$extra-heading-color: #5f2966;
+
+$mobile-breakpoint: 768px;
+$medium-breakpoint: 1280px;
+
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("/fonts/Gotham-Book.otf") format("opentype");
+}
+@font-face {
+    font-family: "Gotham-Medium";
+    src: url("/fonts/Gotham-Medium.otf") format("opentype");
+}
+
+@keyframes toggle {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.sticky-promotions {
+    background: $blueBG;
+    color: $white;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    transition: 0.7s height ease-in-out;
+    height: 40px;
+    -webkit-box-shadow: -1px -7px 8px -10px rgba(0,0,0,0.67);
+    -moz-box-shadow: -1px -7px 8px -10px rgba(0,0,0,0.67);
+    box-shadow: -1px -7px 8px -10px rgba(0,0,0,0.67);
+
+    .toggle-btn {
+        border: none;
+        position: absolute;
+        top: -20px;
+        left: calc(50% - 25px);
+        z-index: 10;
+        width: 50px;
+        height: 34px;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        background: $blueBG;
+        outline: none;
+        -webkit-box-shadow: -1px -7px 8px -10px rgba(0,0,0,0.67);
+        -moz-box-shadow: -1px -7px 8px -10px rgba(0,0,0,0.67);
+        box-shadow: -1px -7px 8px -10px rgba(0,0,0,0.67);
+
+        span {
+            display: block;
+            font-size: 25px;
+            transition: 0.3s 0.7s transform ease-in-out;
+        }
+    }
+    
+    &.active {
+        background: $white;
+        height: 30vh;
+        padding: 16px 0 8px 0;
+		
+		.container {
+			width: 90vw;
+		}
+        
+        .toggle-btn {
+            color: $blueBG;
+            background: $white;
+
+            span {
+                transform: rotate(-45deg);
+            }
+        }
+
+        // .promo-container {
+        //     animation: 0.3s toggle;
+        //     animation-delay: 0.7s;
+        // }
+    }
+
+    .promo-container {  
+        color: $black;
+
+        .promo {
+            padding: 5px 14px;
+            position: relative;
+			height: 21vh;
+            
+            &.type1 {
+                background: $promo_type1_bg;
+            }
+
+            &.type2 {
+                background: $promo_type2_bg;
+            }
+
+            &.type3 {
+                background: $promo_type3_bg;
+
+                & > .row {
+                    align-items: flex-start;
+                }
+            }
+
+            .add-icon {
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                right: calc(0% - 9px);
+                z-index: 11;
+                top: calc(50% - 9px);
+            }
+
+            .extra-heading {
+                font-family: 'Gotham-Medium';
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 2.69;
+                color: $extra-heading-color;
+				position: absolute;
+				top: -25px;
+            }
+            .heading {
+                font-family: 'Gotham-Medium';
+                font-size: 40px;
+                line-height: 1.1;
+                letter-spacing: -0.9px;
+                @media only screen and (max-width: $medium-breakpoint) {
+                    font-size: 25px;
+                }
+            }
+            .description {
+                font-family: 'Gotham-Medium';
+                font-size: 10px;
+                line-height: 1.27;
+                letter-spacing: -0.1px;
+            }
+			
+			.col-md-5 {
+				a {
+					font-size: 12px;
+				}
+			}
+
+            & > .row {
+				padding-top: 20px;
+                display: flex;
+                align-items: flex-end;
+				
+				& > .col-md-7 {
+					position: relative;
+                }
+                
+                & > .col-md-5 {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 0;
+                }
+            }
+
+            .apply {
+                font-family: 'Gotham-Medium';
+                font-size: 6px;
+                line-height: 1.55;
+                letter-spacing: -0.1px;
+                text-align: center;
+                border: 1px solid $black;
+                border-radius: 0;
+                color: $black;
+                width: 100%;
+            }
+            .promoImage {
+                width: 89.5px;
+                height: 64.5px;
+            }
+
+        }
+
+        & > div.col-md-4 {
+            padding: 0;
+            padding-left: 5px;
+
+            &:last-child{
+                .promo{
+                        .add-icon {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .all-coupons {
+        //font-family: 'Gotham-Medium';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 2.5;
+        text-align: center;
+        
+        > a {
+            text-decoration: underline;
+            color: $black;
+        }
+    }
+
+    .mini-promo {
+        text-align: center;
+        color: $white;
+        font-family: 'Gotham-Medium';
+        font-size: 18px;
+        font-weight: bold;
+
+        a {
+            color: $white;
+            text-decoration: underline;
+        }
+    }
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+        display: none;
+    }
+}
+
+// these are only for testing purpose
+.content-section {
+    height: 1000px;
+}
+
+.content-section.green{
+    background: #66bb6a;
+}
+.content-section.blue{
+    background: #42a5f5;
+}
+.content-section.red{
+    background: #ef5350;
+}
+.content-section.amber{
+    background: #ffca28;
+}
+.content-section.cyan{
+    background: #26c6da;
+}
+.content-section.pink{
+    background: #ec407a;
+}
+.content-section.indigo{
+    background: #5c6bc0;
+}

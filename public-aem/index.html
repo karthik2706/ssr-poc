@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOHL'S</title>
+    <link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    />
+    <link href="/assets/styles/main.css" rel="stylesheet">
+    <script src="./mockdata.js"></script>
+    <script src="/bundle.js" defer></script>
+<link href="assets/styles/main.css" rel="stylesheet"></head>
+
+<body>
+    <kohls-header></kohls-header>
+    <kohls-banner></kohls-banner>
+    <kohls-video-banner></kohls-video-banner>
+    <kohls-text-image-carousel></kohls-text-image-carousel>
+    <kohls-stickytester></kohls-stickytester>
+    <kohls-sticky-promotions></kohls-sticky-promotions>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).on('social-login-complete', function () {
+            window.location.reload();
+        });
+        $(document).on('social-logout-complete', function () {
+            window.location.reload();
+        });
+    </script>
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>

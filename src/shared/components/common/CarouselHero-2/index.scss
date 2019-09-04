@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("/fonts/GothamBook.woff") format("opentype");
+}
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("/fonts/GothamMedium.woff") format("opentype");
+}
+
+$mobile-breakpoint: 768px;
+
+.image-with-float-multi-img-n-text {
+  & > div {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .float-text-col {
+    width: 24vw;
+    position: relative;
+    @media only screen and (max-width: $mobile-breakpoint) {
+      width: 15vw;
+    }
+  }
+
+  .sale-component {
+    position: absolute;
+    left: 3vw;
+    top: 12.5vh;
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+      top: 50vh;
+    }
+
+  }
+
+  .floating-sale-type {
+    min-width: 30vw;
+    min-height: 12vh;
+    object-fit: contain;
+    background-color: #d5edef;
+    font-family: "Gotham-Medium";
+    font-size: 62px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.81;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #02A5B5;
+    padding: 3vh 0;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+      font-size: 32px;
+      letter-spacing: -0.02px;
+      line-height: 25px;
+      min-height: auto;
+    }
+  }
+
+  .sale-details {
+    margin: 2vh 0 1vh 2vw;
+    color: #000000;
+  }
+
+  .promo-valid-till-section {
+    width: 220px;
+    font-size: 18px;
+    color: #000000;
+
+    @media only screen and (max-width: $mobile-breakpoint) {
+      font-size: 12px;
+      letter-spacing: -0.02px;
+      line-height: 12px;
+      min-height: auto;
+      margin: 5px 0;
+    }
+  }
+
+  .sale-percentage {
+    width: 20vw;
+    font-family: "Gotham-Book";
+    font-size: 45px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: -1px;
+    color: #000000;
+    @media only screen and (max-width: $mobile-breakpoint) {
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: -1.03px;
+      line-height: 24px;
+      width: auto;
+    }
+  }
+
+  .lighter-text {
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: "Gotham-Book";
+  }
+
+  .primary-image-col {
+    width: 50.4vw;
+
+    div {
+      height: 80vh;
+      width: 50vw;
+      background-size: cover;
+      //background-position: center;
+
+      @media only screen and (max-width: $mobile-breakpoint) {
+        width: 85vw;
+      }
+    }
+  }
+
+  .float-image-col {
+    position: relative;
+    @media only screen and (max-width: $mobile-breakpoint) {
+      display: none;
+    }
+  }
+  .image-brand {
+    position: absolute;
+    left: -2vw;
+
+    img {
+      width: 22vw;
+    }
+
+    .image-brand-1 {
+      margin: 7vh 0 3vh 0;
+      img {
+        height: 35vh;
+      }
+      @media only screen and (max-width: $mobile-breakpoint) {
+        margin: 20px 0;
+        img {
+          height: 100px;
+        }
+      }
+    }
+
+    .image-brand-2 {
+      img {
+        height: 31vh;
+      }
+      @media only screen and (max-width: $mobile-breakpoint) {
+        img {
+          height: 100px;
+        }
+      }
+    }
+  }
+}
+
+.links-to-page {
+  a {
+    color: #000000;
+    //font-family: Gotham;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    text-decoration: underline;
+
+    &:visited,
+    &:focus,
+    &:hover {
+      color: #000000;
+    }
+  }
+  @media only screen and (max-width: $mobile-breakpoint) {
+    display: none;
+  }
+}
+
+.mobile-links-to-page {
+  display: none;
+
+  @media only screen and (max-width: $mobile-breakpoint) {
+    display: block;
+    text-align: center;
+  }
+}
