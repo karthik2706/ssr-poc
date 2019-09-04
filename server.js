@@ -13898,7 +13898,7 @@ var routes = [{
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\VideoBannerComponent\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/VideoBannerComponent/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14031,7 +14031,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CarouselHero_scss__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__CarouselHero_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__CarouselHero_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\CarouselHero\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/CarouselHero/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14222,7 +14222,7 @@ var CarouselHero = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_scss__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\CarouselHero-2\\index.js';
+var _jsxFileName = '/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/CarouselHero-2/index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14452,7 +14452,7 @@ var CarouselHero2 = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__common_ResponsiveHeader__ = __webpack_require__(219);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__common_AdaptiveHeader__ = __webpack_require__(221);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__reducers_body__ = __webpack_require__(50);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\containers\\Header\\index.js';
+var _jsxFileName = '/Users/knaidudintakurthi/ssr-poc/src/shared/components/containers/Header/index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14595,7 +14595,7 @@ __webpack_require__(28).inherits(FetchError, Error);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss__ = __webpack_require__(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\TextImageCarouselComponent\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/TextImageCarouselComponent/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -14864,7 +14864,7 @@ module.exports = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__common_CarouselHero__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index_scss__ = __webpack_require__(248);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\containers\\Banner\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/containers/Banner/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -15172,7 +15172,7 @@ var insideSection = function insideSection(_ref2) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_classnames__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__layout__ = __webpack_require__(257);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\containers\\ColumnControl\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/containers/ColumnControl/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -15995,7 +15995,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_source_map_support_register__ = __webpack_require__(265);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_source_map_support_register___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_source_map_support_register__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__shared_Constants__ = __webpack_require__(53);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\server\\index.js",
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/server/index.js",
     _this = this;
 
 
@@ -16017,59 +16017,61 @@ app.use(__WEBPACK_IMPORTED_MODULE_1_cors___default()());
 app.use(__WEBPACK_IMPORTED_MODULE_0_express___default.a.static("public"));
 
 app.get("*", function (req, res, next) {
-  var store = Object(__WEBPACK_IMPORTED_MODULE_8__shared_configureStore__["a" /* default */])({ server: { reqUrl: req.url } });
-  var promises = __WEBPACK_IMPORTED_MODULE_7__shared_routes__["a" /* default */].reduce(function (acc, route) {
-    if (Object(__WEBPACK_IMPORTED_MODULE_5_react_router_dom__["c" /* matchPath */])(req.url, route) && route.component && route.component.initialActions) {
-      var actionMethods = route.component.initialActions();
-      for (var i = 0; i < actionMethods.length; i++) {
-        acc.push(Promise.resolve(store.dispatch(actionMethods[i])));
-      }
-    }
-    return acc;
-  }, []);
+    var store = Object(__WEBPACK_IMPORTED_MODULE_8__shared_configureStore__["a" /* default */])({ server: { reqUrl: req.url } });
+    var promises = __WEBPACK_IMPORTED_MODULE_7__shared_routes__["a" /* default */].reduce(function (acc, route) {
+        if (Object(__WEBPACK_IMPORTED_MODULE_5_react_router_dom__["c" /* matchPath */])(req.url, route) && route.component && route.component.initialActions) {
+            var actionMethods = route.component.initialActions();
+            for (var i = 0; i < actionMethods.length; i++) {
+                acc.push(Promise.resolve(store.dispatch(actionMethods[i])));
+            }
+        }
+        return acc;
+    }, []);
 
-  Promise.all(promises).then(function () {
-    var context = {};
-    var gigyaURL = __WEBPACK_IMPORTED_MODULE_11__shared_Constants__["a" /* default */].AEM_URL + "/etc/designs/gigya/social_gigya.js";
-    var logoutURL = __WEBPACK_IMPORTED_MODULE_11__shared_Constants__["a" /* default */].AEM_URL + "/etc/designs/platform/foundation/gcmd.json/logout";
-    var providerURL = __WEBPACK_IMPORTED_MODULE_11__shared_Constants__["a" /* default */].AEM_URL + "/content/entities/user_account/provider.caas.json";
-    var markup = Object(__WEBPACK_IMPORTED_MODULE_3_react_dom_server__["renderToString"])(__WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_4_react_redux__["a" /* Provider */],
-      { store: store, __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: _this
-      },
-      __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
-        __WEBPACK_IMPORTED_MODULE_5_react_router_dom__["b" /* StaticRouter */],
-        { location: req.url, context: context, __source: {
-            fileName: _jsxFileName,
-            lineNumber: 43
-          },
-          __self: _this
-        },
-        __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__shared_App__["a" /* default */], {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 44
-          },
-          __self: _this
-        })
-      )
-    ));
+    Promise.all(promises).then(function () {
+        var context = {};
+        var gigyaURL = __WEBPACK_IMPORTED_MODULE_11__shared_Constants__["a" /* default */].AEM_URL + "/etc/designs/gigya/social_gigya.js";
+        var logoutURL = __WEBPACK_IMPORTED_MODULE_11__shared_Constants__["a" /* default */].AEM_URL + "/etc/designs/platform/foundation/gcmd.json/logout";
+        var providerURL = __WEBPACK_IMPORTED_MODULE_11__shared_Constants__["a" /* default */].AEM_URL + "/content/entities/user_account/provider.caas.json";
+        var markup = Object(__WEBPACK_IMPORTED_MODULE_3_react_dom_server__["renderToString"])(__WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_4_react_redux__["a" /* Provider */],
+            { store: store, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 41
+                },
+                __self: _this
+            },
+            __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(
+                __WEBPACK_IMPORTED_MODULE_5_react_router_dom__["b" /* StaticRouter */],
+                { location: req.url,
+                    context: context, __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 43
+                    },
+                    __self: _this
+                },
+                __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__shared_App__["a" /* default */], {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 46
+                    },
+                    __self: _this
+                })
+            ),
+            " "
+        ));
 
-    var initialData = store.getState();
-    if (initialData.server) {
-      delete initialData.server;
-    }
+        var initialData = store.getState();
+        if (initialData.server) {
+            delete initialData.server;
+        }
 
-    res.send("\n        <!DOCTYPE html>\n        <html>\n          <head>\n            <meta charset=\"UTF-8\" />\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n            <title>KOHL'S</title>\n            <link href=\"/images/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\" />\n            <link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\">\n            <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n            <link rel=\"stylesheet\" type=\"text/css\" charset=\"UTF-8\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css\" /> \n            <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css\" />\n            <link href=\"/assets/styles/main.css\" rel=\"stylesheet\">\n            <script src=\"/bundle.js\" defer></script>\n            <script>window.__initialData__ = " + __WEBPACK_IMPORTED_MODULE_6_serialize_javascript___default()(initialData) + "</script>\n          </head>\n          <body>\n            <div id=\"root\">" + markup + "</div>\n          </body>\n          <script\n          src=\"https://code.jquery.com/jquery-3.3.1.min.js\"\n          integrity=\"sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\"\n          crossorigin=\"anonymous\"></script>\n          <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>\n          \n          <script>\n                $(document).on('social-login-complete', function(){\n                   window.location.reload();\n                });\n                $(document).on('social-logout-complete', function(){\n                  window.location.reload();\n               });\n          </script>\n        </html>\n      ");
-  }).catch(next);
+        res.send("\n        <!DOCTYPE html>\n        <html>\n          <head>\n            <meta charset=\"UTF-8\" />\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n            <title>KOHL'S</title>\n            <link href=\"/images/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\" />\n            <link href=\"https://fonts.googleapis.com/css?family=Roboto\" rel=\"stylesheet\">\n            <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n            <link rel=\"stylesheet\" type=\"text/css\" charset=\"UTF-8\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css\" /> \n            <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css\" />\n            <link href=\"/assets/styles/main.css\" rel=\"stylesheet\">\n            <script src=\"/bundle.js\" defer></script>\n            <script>window.__initialData__ = " + __WEBPACK_IMPORTED_MODULE_6_serialize_javascript___default()(initialData) + "</script>\n          </head>\n          <body>\n            <div id=\"root\">" + markup + "</div>\n          </body>\n          <script\n          src=\"https://code.jquery.com/jquery-3.3.1.min.js\"\n          integrity=\"sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=\"\n          crossorigin=\"anonymous\"></script>\n          <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>\n          \n          <script>\n                $(document).on('social-login-complete', function(){\n                   window.location.reload();\n                });\n                $(document).on('social-logout-complete', function(){\n                  window.location.reload();\n               });\n          </script>\n        </html>\n      ");
+    }).catch(next);
 });
 
-app.listen(process.env.PORT, function () {
-  console.log("Server is listening", process.env.PORT);
+app.listen(process.env.PORT || 8080, function () {
+    console.log("Server is listening", process.env.PORT || 8080);
 });
 
 /***/ }),
@@ -64038,7 +64040,7 @@ module.exports = function serialize(obj, options) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__common_StickyPromo__ = __webpack_require__(249);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__common_StickyPromo_tester_js__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__containers_ColumnControl__ = __webpack_require__(103);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\views\\Kohls\\Home\\index.js';
+var _jsxFileName = '/Users/knaidudintakurthi/ssr-poc/src/shared/components/views/Kohls/Home/index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -64200,7 +64202,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss__ = __webpack_require__(220);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\ResponsiveHeader\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/ResponsiveHeader/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -64835,7 +64837,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss__ = __webpack_require__(222);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__index_scss__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\AdaptiveHeader\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/AdaptiveHeader/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -69416,7 +69418,7 @@ module.exports = QueryHandler;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__promo__ = __webpack_require__(251);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__index_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\index.js';
+var _jsxFileName = '/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/StickyPromo/index.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -69560,7 +69562,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\miniPromo.js';
+var _jsxFileName = '/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/StickyPromo/miniPromo.js';
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -69670,7 +69672,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_redux__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\promo.js';
+var _jsxFileName = '/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/StickyPromo/promo.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -69901,7 +69903,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__viewDetector_js__ = __webpack_require__(253);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index_scss__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__index_scss__);
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\tester.js';
+var _jsxFileName = '/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/StickyPromo/tester.js';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -69999,7 +70001,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__index_scss__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _jsxFileName = 'C:\\Project version 2\\FI\\Kohl\'s\\git\\ssr-poc\\src\\shared\\components\\common\\StickyPromo\\viewDetector.js';
+var _jsxFileName = '/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/StickyPromo/viewDetector.js';
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -71018,7 +71020,7 @@ function addEventListener(target, eventName, listener, options) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Banner__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__common_VideoBannerComponent__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__common_TextImageCarouselComponent__ = __webpack_require__(98);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\containers\\layout\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/containers/layout/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -71213,7 +71215,7 @@ var Layout = function (_React$Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_classnames__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_classnames__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\components\\common\\TextComponent\\index.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/components/common/TextComponent/index.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -71366,7 +71368,7 @@ var clearServerState = function clearServerState() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__routes__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_es6_promise__ = __webpack_require__(264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_es6_promise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_es6_promise__);
-var _jsxFileName = "C:\\Project version 2\\FI\\Kohl's\\git\\ssr-poc\\src\\shared\\App.js";
+var _jsxFileName = "/Users/knaidudintakurthi/ssr-poc/src/shared/App.js";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 

@@ -17,41 +17,45 @@ app.use(cors());
 app.use(express.static("public"));
 
 app.get("*", (req, res, next) => {
-  const store = configureStore({server: {reqUrl: req.url}});
-  const promises = routes.reduce((acc, route) => {
-    if (
-      matchPath(req.url, route) &&
-      route.component &&
-      route.component.initialActions
-    ) {
-      const actionMethods = route.component.initialActions();
-      for (var i = 0; i < actionMethods.length; i++) {
-        acc.push(Promise.resolve(store.dispatch(actionMethods[i])));
-      }
-    }
-    return acc;
-  }, []);
+    const store = configureStore({ server: { reqUrl: req.url } });
+    const promises = routes.reduce((acc, route) => {
+        if (
+            matchPath(req.url, route) &&
+            route.component &&
+            route.component.initialActions
+        ) {
+            const actionMethods = route.component.initialActions();
+            for (var i = 0; i < actionMethods.length; i++) {
+                acc.push(Promise.resolve(store.dispatch(actionMethods[i])));
+            }
+        }
+        return acc;
+    }, []);
 
-  Promise.all(promises)
-    .then(() => {
-      const context = {};
-      const gigyaURL = Constants.AEM_URL + "/etc/designs/gigya/social_gigya.js";
-      const logoutURL = Constants.AEM_URL + "/etc/designs/platform/foundation/gcmd.json/logout";
-      const providerURL = Constants.AEM_URL + "/content/entities/user_account/provider.caas.json";
-      const markup = renderToString(
-        <Provider store={store}>
-          <StaticRouter location={req.url} context={context}>
-            <App />
-          </StaticRouter>
-        </Provider>
-      );
+    Promise.all(promises)
+        .then(() => {
+            const context = {};
+            const gigyaURL = Constants.AEM_URL + "/etc/designs/gigya/social_gigya.js";
+            const logoutURL = Constants.AEM_URL + "/etc/designs/platform/foundation/gcmd.json/logout";
+            const providerURL = Constants.AEM_URL + "/content/entities/user_account/provider.caas.json";
+            const markup = renderToString( <
+                Provider store = { store } >
+                <
+                StaticRouter location = { req.url }
+                context = { context } >
+                <
+                App / >
+                <
+                /StaticRouter> < /
+                Provider >
+            );
 
-      let initialData = store.getState();
-      if (initialData.server) {
-        delete initialData.server;
-      }
+            let initialData = store.getState();
+            if (initialData.server) {
+                delete initialData.server;
+            }
 
-      res.send(`
+            res.send(`
         <!DOCTYPE html>
         <html>
           <head>
@@ -86,10 +90,10 @@ app.get("*", (req, res, next) => {
           </script>
         </html>
       `);
-    })
-    .catch(next);
+        })
+        .catch(next);
 });
 
-app.listen(process.env.PORT, () => {
-  console.log("Server is listening", process.env.PORT);
+app.listen(process.env.PORT || 8080, () => {
+    console.log("Server is listening", process.env.PORT || 8080);
 });
