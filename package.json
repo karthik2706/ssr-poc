@@ -10,7 +10,7 @@
     "prod": "NODE_ENV=production webpack -p & NODE_ENV=production nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "heroku-postbuild": "node server.js",
+    "heroku-postbuild": "npm run webpack && node server.js",
     "build-fe": "cross-env NODE_ENV=production webpack --config ./webpack.config.aem.js",
     "fe-start:webpack": "cross-env NODE_ENV=development webpack --config ./webpack.config.aem.js --watch",
     "fe-start:nodemon": "nodemon fe-server.js",
